@@ -8,52 +8,22 @@
 img {
   width: 100%;
   height: auto;
-  margin: 5%;
+  margin: 5% 5% 5% 0%;
 }
 
 footer {
   text-align: center;
   margin-block: 20px;
-  margin-top: 100px;
-  color: rgb(61, 60, 60);
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 10px;
 }
 
 body {
   background-color: rgb(177, 153, 139);
   color: #ffffff;
   font-family: Roboto;
-}
-
-header {
-  position: sticky;
-  top: 0;
-  padding: 1rem 1rem;
-  box-shadow: 0 12px 28px 0 rgb(0 0 0 / 30%);
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  background-color: rgb(177, 153, 139);
-}
-
-header nav ul {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 0.4rem;
-  gap: 30px;
-  overflow-x: auto;
-}
-
-a {
-  text-decoration: none;
-  font-weight: 600;
-  color: #ffffff;
-}
-
-a:hover {
-  color: #c7c7c7;
 }
 
 h1 {
@@ -69,7 +39,6 @@ h1 {
   font-weight: 600;
   color: rgb(61, 60, 60);
   height: 200px;
-  margin: 50px 50px;
   padding: 5%;
 }
 
@@ -82,7 +51,29 @@ p {
 
 figcaption {
   margin: -15px;
-  padding-left: 40px;
+  padding-left: 20px;
   color: #d7d7d7;
   font-size: 14px;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  margin-top: 20px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+}
+
+#musik {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 10px;
+  margin-top: 100px;
+  font-style: italic;
 }
