@@ -1,0 +1,88 @@
+/* styling */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin: 5%;
+}
+
+footer {
+  text-align: center;
+  margin-block: 20px;
+  margin-top: 100px;
+  color: rgb(61, 60, 60);
+}
+
+body {
+  background-color: rgb(177, 153, 139);
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  padding: 1rem 1rem;
+  box-shadow: 0 12px 28px 0 rgb(0 0 0 / 30%);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: rgb(177, 153, 139);
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  gap: 30px;
+  overflow-x: auto;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #c7c7c7;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.content {
+  background-image: url(foto/mursten.webp);
+  background-size: cover;
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(61, 60, 60);
+  height: 200px;
+  margin: 50px 50px;
+  padding: 5%;
+}
+
+.forside_grid_1-1 {
+  margin: 50px 50px;
+}
+p {
+  margin: 50px 50px;
+}
+
+figcaption {
+  margin: -15px;
+  padding-left: 40px;
+  color: #d7d7d7;
+  font-size: 14px;
+}
